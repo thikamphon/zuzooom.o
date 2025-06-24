@@ -1,6 +1,5 @@
 <script setup></script>
 <template>
-    <!-- class=" content grid justify-between grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 w-3/4 h-3/4 overflow-x-hidden overflow-y-auto pointer-events-auto"> -->
     <div class="w-full h-lvh m-auto border-1 flex items-center justify-center">
         <div
             class="p-4 rounded-[2.5rem] bg-[var(--color-tone-obj)] lg:m-[-10px] w-3/4 h-3/4 grid grid-cols-1 gap-2 lg:grid-cols-2 2xl:grid-cols-3 2xl:h-fit overflow-x-hidden overflow-y-auto pointer-events-auto">
@@ -59,8 +58,8 @@
                     <img class="w-2/3 right-item" src="../assets/Skill_text.svg" alt="">
                     <img class="w-2/3 left-item" src="../assets/border_skill_text.svg" alt="">
                     <div class="w-[100%] h-[80%] middle-Y">
-                        <img class="w-2/5 absolute left-5 top-5 shadow-base-300"
-                            src="../assets/artdesign_sticker.svg" alt="">
+                        <img class="w-2/5 absolute left-5 top-5 shadow-base-300" src="../assets/artdesign_sticker.svg"
+                            alt="">
                         <img class="w-1/3 absolute right-5 top-10 rotate-12" src="../assets/unity_sticker.svg" alt="">
                         <img class="w-1/3 bottom-0 middle-X" src="../assets/webdev_stcker.svg" alt="">
                     </div>
