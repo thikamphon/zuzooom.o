@@ -25,12 +25,12 @@ const toggleMenu = () => {
 </script>
 <template>
     <div class="absolute z-1000 top-0 left-0 w-full px-4 lg:px-13 xl:xp-34">
-        <div class="navbar flex items-start lg:items-center">
+        <div class="navbar flex items-start justify-between lg:items-center">
             <div class="navbar-start w-40 gap-4">
                 <img class="w-6" :src="logoSrc" alt="">
                 <div class="font-bold text-[var(--color)] text-lg hidden lg:block">ZUZOOOM</div>
             </div>
-            <div class="navbar-end flex justify-between w-full lg:flex-row-reverse lg:navbar-start gap-4">
+            <div class="navbar-end flex  w-full lg:flex-row-reverse lg:navbar-start gap-4">
                 <label class="btn btn-circle bg-[#7c7c7c93] swap swap-rotate border-0 shadow-[opacity-0]">
                     <input type="checkbox" class="theme-controller" value="emerald" @click="toggleTheme" />
                     <svg class="sun-icon swap-off h-8 w-8 fill-[var(--color)]" xmlns="http://www.w3.org/2000/svg"
