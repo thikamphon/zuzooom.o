@@ -10,7 +10,7 @@
                 </div>
                 <div class="md:hidden">
                     <img class="pic" src="../assets/Profile.svg" alt="">
-                    <img class="" src="../assets/Details.svg" alt="">
+                    <img class="" src="../assets/Details_of_card.svg" alt="">
                 </div>
             </div>
 
