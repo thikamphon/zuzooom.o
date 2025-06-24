@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: emerald --default, dracula --prefersdark;
+}
+
+[data-theme="dracula"] {
+  --color-base-100: #363636;
+  --bar-color: #262626;
+  --btn-bg: #62626293;
+  --color-tone-obj: #546684;
+  --arrow: #f04b6993;
+  --color: white;
+}
+
+[data-theme="emerald"] {
+  --color-base-100: #ECECEC;
+  --bar-color: #D9D9D9;
+  --btn-bg: #62626262;
+  --circle: #02020299;
+  --color-tone-obj: #CABED8;
+  --arrow: #f04b6993;
+  --color: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Mali';
+}
+
+html{
+  overflow: hidden;
+}
+
+.btn-navbar {
+  background: var(--btn-bg);
+  color: var(--color);
+  border-radius: 6px;
+}
+
+.btn-navbar:hover {
+  background: var(--color-tone-obj);
+  opacity: .6;
+}
+
+.btn:hover {
+  background: var(--color-tone-obj);
+  opacity: .6;
+}
+
+.btn-link {
+  background-color: var(--btn-bg);
+}
+
+.content {
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
