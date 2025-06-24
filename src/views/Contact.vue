@@ -59,7 +59,7 @@
                     <img class="w-2/3 right-item" src="../assets/Skill_text.svg" alt="">
                     <img class="w-2/3 left-item" src="../assets/border_skill_text.svg" alt="">
                     <div class="w-[100%] h-[80%] middle-Y">
-                        <img class="w-2/5 absolute left-5 top-5 shadow-base-300 shadow-2xl"
+                        <img class="w-2/5 absolute left-5 top-5 shadow-base-300"
                             src="../assets/artdesign_sticker.svg" alt="">
                         <img class="w-1/3 absolute right-5 top-10 rotate-12" src="../assets/unity_sticker.svg" alt="">
                         <img class="w-1/3 bottom-0 middle-X" src="../assets/webdev_stcker.svg" alt="">
