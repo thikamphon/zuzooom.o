@@ -17,7 +17,7 @@ const dataStore = useDataStore()
                         <h2 class="card-title text-black">
                             {{ item.title }}
                         </h2>
-                        <p class="line-clamp-2">{{ item.about }}</p>
+                        <p class="line-clamp-2 text-black">{{ item.about }}</p>
                         <div class="card-actions font-light line-clamp-1">
                             <div v-for="(tag, index) in item.tags" :key="index" class="mx-1 badge badge-warning">
                                 {{ tag }}

@@ -30,7 +30,7 @@ const toggleMenu = () => {
                 <img class="w-6" :src="logoSrc" alt="">
                 <div class="font-bold text-[var(--color)] text-lg hidden lg:block">ZUZOOOM</div>
             </div>
-            <div class="navbar-end flex w-full lg:flex-row-reverse lg:navbar-start gap-4">
+            <div class="navbar-end flex justify-between w-full lg:flex-row-reverse lg:navbar-start gap-4">
                 <label class="btn btn-circle bg-[#7c7c7c93] swap swap-rotate border-0 shadow-[opacity-0]">
                     <input type="checkbox" class="theme-controller" value="emerald" @click="toggleTheme" />
                     <svg class="sun-icon swap-off h-8 w-8 fill-[var(--color)]" xmlns="http://www.w3.org/2000/svg"
