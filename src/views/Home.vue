@@ -1,6 +1,7 @@
 <script setup></script>
 <template>
-    <img class="absolute left-1/2 bottom-[-12vh] z-[-997] pointer-events-none" id="character"
+    <div class="overflow-hidden">
+         <img class="absolute left-1/2 bottom-[-12vh] z-[-997] pointer-events-none" id="character"
         src="../assets/character.png" alt="">
     <svg id="circle" class="w-sm pointer-events-none md:w-xl xl:w-xl" viewBox="0 0 583 583" fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -60,6 +61,8 @@
         </div>
         <div class="mt-[-5px] h-64 bg-[var(--color-tone-obj)]"></div>
     </div>
+    </div>
+   
 
 </template>
 <style scoped>
