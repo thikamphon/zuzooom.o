@@ -79,13 +79,18 @@
                             <div class="border-1 border-blue-700 w-fit px-4 py-0.5 rounded-2xl bg-white text-blue-700">
                                 Years » 2025
                             </div>
-                            <b>Youtube Creator</b>
+                            <!-- <b>Youtube Creator</b>
                             <i class="text-[10px]">Now, I'm a Youtube creator on zuzooom channel. This channel is all
                                 about
                                 learning by
                                 doing — I share my journey, experiments, and lessons through how-to videos and
                                 practical
-                                tips.</i>
+                                tips.</i> -->
+                            <b>Personal Projects & Creative Work</b>
+                            <i class="text-[10px]">Created and published digital products like Notion templates and art
+                                designs on Redbubble.
+                                Combine creativity and technical skills to build personal products for global audiences.
+                            </i>
                         </div>
                     </div>
                     <div class="w-full grid grid-cols-[10px_1fr] animate_smoothBounce">
@@ -119,7 +124,6 @@
             </div>
         </div>
     </div>
-
 </template>
 <style scoped>
 /* .animate_smoothBounce:hover {
