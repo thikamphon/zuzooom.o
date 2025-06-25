@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-    <div class="overflow-hidden">
+    <div class="relative w-screen h-screen overflow-hidden">
         <img class="absolute left-1/2 bottom-[-12vh] z-[-997] pointer-events-none" id="character"
             src="../assets/character.png" alt="">
         <svg id="circle" class="w-sm pointer-events-none md:w-xl xl:w-xl" viewBox="0 0 583 583" fill="none"

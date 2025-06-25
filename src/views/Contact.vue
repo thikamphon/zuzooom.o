@@ -103,7 +103,6 @@
                             <i class="text-[10px]">Effectively organized and maintained work data via Google Sheets,
                                 followed by
                                 transforming the data into comprehensive performance analytics.</i>
-                            <i>3D Artist, Create and Design assets and materials for projects while internship.</i>
                         </div>
                     </div>
                     <div class="w-full grid grid-cols-[10px_1fr] animate_smoothBounce">
