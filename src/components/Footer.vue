@@ -12,8 +12,13 @@
                 </a>
             </div>
             <div class="tooltip bg-[var(--btn-bg)] rounded-full" data-tip="mail">
-                <a class="btn btn-link rounded-full w-10 h-10 p-2" href="https://www.youtube.com/@zuzooom">
+                <a class="btn btn-link rounded-full w-10 h-10 p-2" href="mailto:thikamphon.pang@gmail.com">
                     <img src="../assets/logo-mail.svg" alt="mail">
+                </a>
+            </div>
+            <div class="tooltip bg-[var(--btn-bg)] rounded-full" data-tip="youtube">
+                <a class="btn btn-link rounded-full w-10 h-10 p-2" href="https://www.youtube.com/@zuzooom">
+                    <img src="../assets/logo-youtube.svg" alt="youtube">
                 </a>
             </div>
         </div>
