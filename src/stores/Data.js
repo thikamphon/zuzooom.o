@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import pngTodo from '../assets/Todo.webp'
-import thumnails_KPI from '../assets/thumnails_kpi.svg'
+import thumnails_KPI from '../assets/thumnails_kpi.png'
 import a_bite from '../assets/a_bite.png'
 
 export const useDataStore = defineStore('data', {

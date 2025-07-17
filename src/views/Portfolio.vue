@@ -10,8 +10,12 @@ const dataStore = useDataStore()
             <div class="rounded-lg card-hover  cursor-pointer card 
             h-fit w-fit max-w-90 shadow-md shadow-gray-600" :key="index">
                 <a class="rounded-lg bg-white" :href="item.link" target="_blank">
-                    <figure class="object-cover object-top h-48 md:h-30 lg:h-47 w-full">
+                    <!-- <figure class="object-cover object-top h-48 md:h-30 lg:h-47 w-full">
                         <img :src="item.imageUrl" :alt="`overview of project: ` + item.title" />
+                    </figure> -->
+                    <figure class="h-48 md:h-30 lg:h-47 w-full">
+                        <img :src="item.imageUrl" :alt="`overview of project: ` + item.title"
+                            class="w-full h-full object-cover object-top" />
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title text-black">
