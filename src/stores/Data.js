@@ -1,18 +1,18 @@
 import { defineStore } from 'pinia'
 import pngTodo from '../assets/Todo.webp'
 import thumnails_KPI from '../assets/thumnails_kpi.svg'
+import a_bite from '../assets/a_bite.png'
 
-// import squareGame from '../assets/Game-click-square.webp'
 export const useDataStore = defineStore('data', {
   state: () => ({
     projects: [
-      // {
-      //   link: 'https://thikamphon.github.io/game-click-square/',
-      //   imageUrl: squareGame,
-      //   title: 'Click Square!!',
-      //   about: 'The basic game on web site for web dev for learning web.',
-      //   tags: ['HTML', 'CSS', 'JS', 'University'],
-      // }, 
+      {
+        link: 'https://thikamphon.github.io/a-bite/#/',
+        imageUrl: a_bite,
+        title: 'E-Commerce-(a-Bite)',
+        about: 'Mockup Frontend and Backend use locastorage for upload new data.',
+        tags: ['Vue', 'Tailwind', 'daisyUI'],
+      }, 
       {
         link: 'https://docs.google.com/spreadsheets/d/11IpwMTFbNpbK9x-XU0src6h-d-9bUUYilozTyYiOoLc/edit?usp=sharing',
         imageUrl: thumnails_KPI,
