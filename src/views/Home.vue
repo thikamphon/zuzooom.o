@@ -1,8 +1,8 @@
 <script setup></script>
 <template>
     <div class="relative w-screen h-screen overflow-hidden">
-        <img class="absolute left-1/2 bottom-[-12vh] z-[-997] pointer-events-none" id="character"
-            src="../assets/character.png" alt="">
+        <img class="absolute h-11/12 left-1/2 bottom-[-12vh] z-[-997] pointer-events-none" id="character"
+            src="../assets/character.webp" alt="">
         <svg id="circle" class="w-sm pointer-events-none md:w-xl xl:w-xl" viewBox="0 0 583 583" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <circle opacity="0.6" cx="291.5" cy="291.5" r="291.5" fill="var(--color-tone-obj)" />

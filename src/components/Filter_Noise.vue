@@ -22,7 +22,7 @@
     opacity: .6;
     position: absolute;
     z-index: 1100;
-    background-image: url(../assets/noise_img.png);
+    background-image: url(../assets/noise_img.webp);
     pointer-events: none;
     background-repeat: repeat;
 }
