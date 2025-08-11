@@ -25,7 +25,6 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Mali';
 }
 
 html{
@@ -38,9 +37,14 @@ html{
   border-radius: 6px;
 }
 
-.btn:hover {
+.btn-navbar:hover {
   background: var(--color-tone-obj);
   opacity: .6;
+}
+
+.btn:hover {
+  background: var(--color-tone-obj);
+  opacity: 0.6;
 }
 
 .btn-link {

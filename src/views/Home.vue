@@ -78,7 +78,7 @@
     transform: translate(-50%, -50%) scale(0);
     z-index: -999;
 
-    animation: grow 2s ease-out forwards;
+    animation: grow 1.5s ease-out forwards;
 }
 
 @keyframes grow {
@@ -94,7 +94,7 @@
 
 .rotate-left {
     transform: rotate(0deg);
-    animation: rotate-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+    animation: rotate-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
 }
 
 @keyframes rotate-left {
@@ -111,7 +111,7 @@
 
 .rotate-right {
     transform: rotate(0deg);
-    animation: rotate-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+    animation: rotate-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
 }
 
 @keyframes rotate-right {
