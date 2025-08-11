@@ -2,8 +2,8 @@
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
-import logoLight from '../assets/LOGO-zuzooom-light.png'
-import logoDark from '../assets/LOGO-zuzooom-dark.png'
+import logoLight from '../assets/LOGO-zuzooom-light.webp'
+import logoDark from '../assets/LOGO-zuzooom-dark.webp'
 const isLight = ref(false)
 const logoSrc = ref(logoLight)
 
