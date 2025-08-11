@@ -38,11 +38,6 @@ html{
   border-radius: 6px;
 }
 
-.btn-navbar:hover {
-  background: var(--color-tone-obj);
-  opacity: .6;
-}
-
 .btn:hover {
   background: var(--color-tone-obj);
   opacity: .6;

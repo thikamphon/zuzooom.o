@@ -65,15 +65,15 @@ const toggleMenu = () => {
                             'lg:flex lg:static lg:translate-y-0 lg:opacity-100 lg:flex-row ',
                             isMenuOpen ? 'absolute top-16 rounded-xl bg-[var(--color-tone-obj)] shadow opacity-100' : 'hidden opacity-0']">
                         <li class=" w-[130px]">
-                            <RouterLink :to="{ name: 'home' }" class="btn-navbar block p-2 w-full text-center">HOME
+                            <RouterLink :to="{ name: 'home' }" class="btn btn-navbar block p-2 w-full text-center">HOME
                             </RouterLink>
                         </li>
                         <li class="w-[130px]">
-                            <RouterLink :to="{ name: 'portfolio' }" class="btn-navbar block p-2 w-full text-center">
+                            <RouterLink :to="{ name: 'portfolio' }" class="btn btn-navbar block p-2 w-full text-center">
                                 PORTFOLIO</RouterLink>
                         </li>
                         <li class="w-[130px]">
-                            <RouterLink :to="{ name: 'contact' }" class="btn-navbar block p-2 w-full text-center">
+                            <RouterLink :to="{ name: 'contact' }" class="btn btn-navbar block p-2 w-full text-center">
                                 CONTACT</RouterLink>
                         </li>
                     </ul>
