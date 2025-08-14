@@ -63,7 +63,6 @@
         </div>
     </div>
 
-
 </template>
 <style scoped>
 .responsive-animation {
@@ -131,13 +130,13 @@
     left: 50%;
     bottom: 50px;
 
-    transform: translate(-50%, -20%);
-    animation: character ease-in-out 2s forwards;
+    transform: translate(-50%, -0px);
+    animation: character ease-in-out 1.5s forwards;
 }
 
 @keyframes character {
     0% {
-        transform: translate(-50%, 40%);
+        transform: translate(-50%, 60%);
     }
 
     100% {

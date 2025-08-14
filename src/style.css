@@ -18,13 +18,14 @@
   --bar-color: #D9D9D9;
   --btn-bg: #62626262;
   --circle: #02020299;
-  --color-tone-obj: #CABED8;
+  --color-tone-obj: #e4bade;
   --arrow: #f04b6993;
   --color: #000000;
 }
 
 * {
   box-sizing: border-box;
+  font-family: 'Mali';
 }
 
 html{
