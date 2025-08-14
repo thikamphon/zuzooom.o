@@ -1,4 +1,3 @@
-<script setup></script>
 <template>
     <div class="relative w-screen h-screen overflow-hidden">
         <img class="absolute h-11/12 left-1/2 bottom-[-12vh] z-[-997] pointer-events-none" id="character"
@@ -65,6 +64,25 @@
 
 </template>
 <style scoped>
+#character {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+
+    transform: translate(-50%, 0px);
+    animation: character ease-in-out 1.5s forwards;
+}
+
+@keyframes character {
+    0% {
+        transform: translate(-50%, 60%);
+    }
+
+    100% {
+        transform: translate(-50%, 20%);
+    }
+}
+
 .responsive-animation {
     left: 50%;
     transform: translateX(-50%);
@@ -125,22 +143,4 @@
     }
 }
 
-#character {
-    position: absolute;
-    left: 50%;
-    bottom: 50px;
-
-    transform: translate(-50%, -0px);
-    animation: character ease-in-out 1.5s forwards;
-}
-
-@keyframes character {
-    0% {
-        transform: translate(-50%, 60%);
-    }
-
-    100% {
-        transform: translate(-50%, 20%);
-    }
-}
 </style>
