@@ -1,7 +1,9 @@
 import { defineStore } from 'pinia'
 import thumnails_Todo from '../assets/thumnails_Todo.webp'
-import thumnails_KPI from '../assets/thumnails_kpi.webp'
+import thumnails_KPI from '../assets/thumnails_Kpi.webp'
 import thumnails_Abite from '../assets/thumnails_Abite.webp'
+import thumnails_LandingPage from '../assets/thumnails_LandingPage.webp'
+import thumnails_EComerce from '../assets/thumnails_EComerce.webp'
 
 export const useDataStore = defineStore('data', {
   state: () => ({
@@ -36,7 +38,7 @@ export const useDataStore = defineStore('data', {
       },
       {
         link: 'https://thikamphon.github.io/ecommerce-product-page-main/',
-        imageUrl: 'https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Screenshots/vdyqztahkqyslrdsu9nx.jpg',
+        imageUrl: thumnails_EComerce,
         title: 'E-commerce website',
         about: 'Mockup add and delete items and make Carousel and modal by basic skill.',
         tags: ['HTML', 'CSS', 'JS'],
@@ -57,7 +59,7 @@ export const useDataStore = defineStore('data', {
       },
       {
         link: 'https://thikamphon.github.io/sunnyside-landing-page/',
-        imageUrl: 'https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Screenshots/wpsrtpflv1nj4hkwptmr.jpg',
+        imageUrl: thumnails_LandingPage,
         title: 'Landing page',
         about: "This one is the Landing page, responsive. style website used hero is hero overlay. There're many things to learn from this project.",
         tags: ['HTML', 'CSS', 'JS']
