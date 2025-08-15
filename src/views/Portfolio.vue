@@ -12,8 +12,10 @@ const dataStore = useDataStore()
             h-fit w-fit max-w-90 shadow-md shadow-gray-600" :key="index">
                     <a class="rounded-lg bg-white" :href="item.link" target="_blank">
                         <figure class="h-48 md:h-30 lg:h-47 w-full">
-                            <img :src="item.imageUrl" :alt="`overview of project: ` + item.title"
-                                class="w-full h-full object-cover object-top" />
+                            <img :src="item.imageUrl" :alt="`overview of project: ` + item.title" 
+                                class="w-full h-full object-cover object-top" 
+                                fetchpriority="low" 
+                                loading="eager"/>
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title text-black">
