@@ -10,9 +10,9 @@ import Filter_Noise from "./components/Filter_Noise.vue";
 <template>
     <Filter_Noise></Filter_Noise>
     <Navbar />
-    <div class="container-full">
+    <body class="container-full">
         <RouterView></RouterView>
-    </div>
+    </body>
     <Footer />
 
 </template>

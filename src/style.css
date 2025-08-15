@@ -25,6 +25,7 @@
 
 * {
   box-sizing: border-box;
+  font-display: auto;
   font-family: serif;
 }
 

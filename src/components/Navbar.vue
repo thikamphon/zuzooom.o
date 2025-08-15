@@ -24,7 +24,7 @@ const toggleMenu = () => {
 
 </script>
 <template>
-    <div class="absolute z-1000 top-0 left-0 w-full px-4 lg:px-13 xl:xp-34">
+    <nav class="absolute z-1000 top-0 left-0 w-full px-4 lg:px-13 xl:xp-34">
         <div class="navbar flex justify-between lg:items-center">
             <div class="navbar-start w-40 gap-4">
                 <img class="w-6" :src="logoSrc" alt="">
@@ -63,21 +63,16 @@ const toggleMenu = () => {
                             'transition-all duration-300',
                             'lg:flex lg:static lg:translate-y-0 lg:opacity-100 lg:flex-row ',
                             isMenuOpen ? 'absolute top-16 rounded-xl bg-[var(--color-tone-obj)] shadow opacity-100' : 'hidden opacity-0']">
-                        <li class=" w-[130px]">
-                            <RouterLink :to="{ name: 'home' }" class="btn btn-navbar block p-2 w-full text-center">HOME
-                            </RouterLink>
-                        </li>
-                        <li class="w-[130px]">
-                            <RouterLink :to="{ name: 'portfolio' }" class="btn btn-navbar block p-2 w-full text-center">
-                                PORTFOLIO</RouterLink>
-                        </li>
-                        <li class="w-[130px]">
-                            <RouterLink :to="{ name: 'contact' }" class="btn btn-navbar block p-2 w-full text-center">
-                                CONTACT</RouterLink>
-                        </li>
+                        <RouterLink :to="{ name: 'home' }" class="btn w-[130px] btn-navbar block p-2 text-center">
+                            HOME
+                        </RouterLink>
+                        <RouterLink :to="{ name: 'portfolio' }" class="btn btn-navbar block p-2 w-[130px] text-center">
+                            PORTFOLIO</RouterLink>
+                        <RouterLink :to="{ name: 'contact' }" class="btn btn-navbar block p-2 w-[130px] text-center">
+                            CONTACT</RouterLink>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
+    </nav>
 </template>

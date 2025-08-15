@@ -1,5 +1,5 @@
 <template>
-    <div class="relative w-screen h-screen overflow-hidden">
+    <section class="relative w-screen h-screen overflow-hidden">
         <img class="absolute h-11/12 left-1/2 bottom-[-12vh] z-[-997] pointer-events-none" id="character"
             src="../assets/character.webp" alt="">
         <svg id="circle" class="w-sm pointer-events-none md:w-xl xl:w-xl" viewBox="0 0 583 583" fill="none"
@@ -60,7 +60,7 @@
             </div>
             <div class="mt-[-5px] h-64 bg-[var(--color-tone-obj)]"></div>
         </div>
-    </div>
+    </section>
 
 </template>
 <style scoped>
