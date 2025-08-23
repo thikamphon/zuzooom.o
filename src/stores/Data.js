@@ -8,13 +8,13 @@ import thumnails_EComerce from '../assets/thumnails_EComerce.webp'
 export const useDataStore = defineStore('data', {
   state: () => ({
     projects: [
-      {
-        link: 'https://thikamphon.github.io/a-bite/#/',
-        imageUrl: thumnails_Abite,
-        title: 'E-Commerce-(a-Bite)',
-        about: 'Mockup Frontend and Backend use locastorage for upload new data.',
-        tags: ['Vue', 'Tailwind', 'daisyUI'],
-      }, 
+      // {
+      //   link: 'https://thikamphon.github.io/a-bite/#/',
+      //   imageUrl: thumnails_Abite,
+      //   title: 'E-Commerce-(a-Bite)',
+      //   about: 'Mockup Frontend and Backend use locastorage for upload new data.',
+      //   tags: ['Vue', 'Tailwind', 'daisyUI'],
+      // }, 
       {
         link: 'https://docs.google.com/spreadsheets/d/11IpwMTFbNpbK9x-XU0src6h-d-9bUUYilozTyYiOoLc/edit?usp=sharing',
         imageUrl: thumnails_KPI,
