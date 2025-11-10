@@ -72,7 +72,7 @@
                     <img class="w-2/3 md:w-[300px] m-auto" src="../assets/Experience_text.svg" alt="">
                 </div>
                 <div class="text-[var(--color)] not-last:w-full timeline-box rounded-[20px] mt-2 pb-10 grid gap-4">
-                    /*<div class="w-full grid grid-cols-[10px_1fr] animate_smoothBounce">
+                    <div class="hidden w-full grid grid-cols-[10px_1fr] animate_smoothBounce">
                         <div class="status status-info bg-blue-700 mt-2"></div>
                         <div class="w-full h-fit grid grid-rows-2 ">
                             <div class="border-1 border-blue-700 w-fit px-4 py-0.5 rounded-2xl bg-white text-blue-700">
@@ -84,7 +84,7 @@
                                 Combine creativity and technical skills to build personal products for global audiences.
                             </i>
                         </div>
-                    </div>*/
+                    </div>
                     <div class="w-full grid grid-cols-[10px_1fr] animate_smoothBounce">
                         <div class="status status-info bg-blue-700 mt-2"></div>
                         <div class="w-full h-fit grid grid-rows-2">
